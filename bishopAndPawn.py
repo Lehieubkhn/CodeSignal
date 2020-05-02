@@ -1,3 +1,6 @@
+#idea: check the color of bishop and pawn first: if they have difference color return False
+#check the row and column of bishop and pawn. If they have the same column or row, return False
+#otherwise return True
 def bishopAndPawn(bishop, pawn):
     if isSameColor(bishop) != isSameColor(pawn):
         return False
